@@ -1,6 +1,6 @@
 {
   "name": "@react-simple-query-builder/root",
-  "version": "0.0.0",
+  "version": "0.0.2",
   "description": "User-friendly query builder for React.",
   "keywords": [
     "query-builder",
