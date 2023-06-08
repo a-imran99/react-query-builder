@@ -1,8 +1,7 @@
 {
-  "name": "@react-awesome-query-builder/root",
+  "name": "react-simple-query-builder",
   "version": "0.0.0",
-  "private": true,
-  "description": "User-friendly query builder for React. Demo: https://ukrbublik.github.io/react-awesome-query-builder",
+  "description": "User-friendly query builder for React.",
   "keywords": [
     "query-builder",
     "query",
@@ -40,9 +39,8 @@
     "type": "git",
     "url": "https://github.com/ukrbublik/react-awesome-query-builder.git"
   },
-  "funding": "https://opencollective.com/react-awesome-query-builder",
   "license": "MIT",
-  "author": "Denis Oblogin <ukrbublik@gmail.com> (https://github.com/ukrbublik)",
+  "author": "A Imran <arshathimran.b.1999@gmail.com> (https://github.com/a-imran99)",
   "workspaces": [
     "packages/core",
     "packages/ui",
