@@ -31,13 +31,13 @@
     "fluent",
     "office-ui-fabric"
   ],
-  "homepage": "https://github.com/ukrbublik/react-awesome-query-builder",
+  "homepage": "https://github.com/a-imran99/react-query-builder",
   "bugs": {
-    "url": "https://github.com/ukrbublik/react-awesome-query-builder/issues"
+    "url": "https://github.com/a-imran99/react-query-builder/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ukrbublik/react-awesome-query-builder.git"
+    "url": "https://github.com/a-imran99/react-query-builder.git"
   },
   "license": "MIT",
   "author": "A Imran <arshathimran.b.1999@gmail.com> (https://github.com/a-imran99)",
