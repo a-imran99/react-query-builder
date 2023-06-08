@@ -21,7 +21,7 @@ const itemsToListValues = (items, level = 0) => (
 
 const filterOptionsConfig = {
   stringify: (option) => {
-    const keysForFilter = ["title", "value", "grouplabel", "label"];
+    const keysForFilter = ["title", "grouplabel", "label"];
     const valueForFilter = keysForFilter
       .map(k => (typeof option[k] == "string" ? option[k] : ""))
       .join("\0");
