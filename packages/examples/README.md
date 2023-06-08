@@ -1,6 +1,6 @@
-# @react-awesome-query-builder/examples
+# react-simple-query-builder/examples
 
-[![npm](https://img.shields.io/npm/v/@react-awesome-query-builder/examples.svg)](https://www.npmjs.com/package/@react-awesome-query-builder/examples)
+[![npm](https://img.shields.io/npm/v/react-simple-query-builder/examples.svg)](https://www.npmjs.com/package/react-simple-query-builder/examples)
 
 Demo app, uses local library with hot reload.  
 You can switch between AntDesign, MUI, Bootstrap and vanilla widgets.  

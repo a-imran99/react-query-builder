@@ -5,7 +5,7 @@ import {
   Utils, BasicConfig, BasicFuncs,
   // types:
   Settings, Operators, Widgets, Fields, Config, Types, Conjunctions, LocaleSettings, OperatorProximity, Funcs,
-} from "@react-awesome-query-builder/mui";
+} from "react-simple-query-builder/mui";
 const { simulateAsyncFetch } = Utils.Autocomplete;
 
 export function createConfig(InitialConfig: BasicConfig): Config {

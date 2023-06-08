@@ -1,5 +1,5 @@
-import { Query, Builder, BasicConfig } from "@react-awesome-query-builder/ui";
-import { AntdConfig } from "@react-awesome-query-builder/antd";
+import { Query, Builder, BasicConfig } from "react-simple-query-builder/ui";
+import { AntdConfig } from "react-simple-query-builder/antd";
 import * as configs from "../support/configs";
 import * as inits from "../support/inits";
 import { with_qb, empty_value, export_checks } from "../support/utils";

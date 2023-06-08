@@ -13,17 +13,17 @@ import {
   JsonLogicTree, JsonTree, ImmutableTree, ConfigContext,
   Query, Builder, BasicConfig, Config,
   BuilderProps
-} from "@react-awesome-query-builder/ui";
+} from "react-simple-query-builder/ui";
 const {
   uuid, 
   checkTree, loadTree, _loadFromJsonLogic, loadFromSpel, isJsonLogic, elasticSearchFormat,
   queryString, sqlFormat, spelFormat, mongodbFormat, jsonLogicFormat, queryBuilderFormat, getTree, ConfigUtils
 } = Utils;
-import { AntdConfig } from "@react-awesome-query-builder/antd";
-import { MuiConfig } from "@react-awesome-query-builder/mui";
-import { MaterialConfig } from "@react-awesome-query-builder/material";
-import { BootstrapConfig } from "@react-awesome-query-builder/bootstrap";
-import { FluentUIConfig } from "@react-awesome-query-builder/fluent";
+import { AntdConfig } from "react-simple-query-builder/antd";
+import { MuiConfig } from "react-simple-query-builder/mui";
+import { MaterialConfig } from "react-simple-query-builder/material";
+import { BootstrapConfig } from "react-simple-query-builder/bootstrap";
+import { FluentUIConfig } from "react-simple-query-builder/fluent";
 
 
 type ConsoleData = {

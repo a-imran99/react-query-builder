@@ -1,15 +1,15 @@
 import React from "react";
-import { AntdConfig, AntdWidgets } from "@react-awesome-query-builder/antd";
-import { MuiWidgets } from "@react-awesome-query-builder/mui";
-import { MaterialWidgets } from "@react-awesome-query-builder/material";
-import { BootstrapWidgets } from "@react-awesome-query-builder/bootstrap";
-import { FluentUIWidgets } from "@react-awesome-query-builder/fluent";
+import { AntdConfig, AntdWidgets } from "react-simple-query-builder/antd";
+import { MuiWidgets } from "react-simple-query-builder/mui";
+import { MaterialWidgets } from "react-simple-query-builder/material";
+import { BootstrapWidgets } from "react-simple-query-builder/bootstrap";
+import { FluentUIWidgets } from "react-simple-query-builder/fluent";
 const {
   FieldDropdown,
   FieldCascader,
   FieldTreeSelect,
 } = AntdWidgets;
-import { BasicFuncs } from "@react-awesome-query-builder/core";
+import { BasicFuncs } from "react-simple-query-builder/core";
 import { simulatedAsyncFetch } from "./autocomplete";
 import sinon from "sinon";
 

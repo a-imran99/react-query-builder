@@ -3,7 +3,7 @@ import {
   Query, Builder, Utils, 
   //types:
   BuilderProps, ImmutableTree, Config, JsonTree, JsonLogicTree, ActionMeta, Actions
-} from "@react-awesome-query-builder/ui";
+} from "react-simple-query-builder/ui";
 import ImportSkinStyles from "../skins";
 import throttle from "lodash/throttle";
 import loadConfig from "./config";

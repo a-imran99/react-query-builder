@@ -3,7 +3,7 @@ import {
   Utils,
   //types:
   ImmutableTree, Config, JsonTree, JsonLogicTree, JsonLogicResult
-} from "@react-awesome-query-builder/core";
+} from "react-simple-query-builder/core";
 import { withSessionRoute, getSessionData, saveSessionData } from "../../lib/withSession";
 import serverConfig from "../../lib/config";
 import loadedInitValue from "../../data/init_value";

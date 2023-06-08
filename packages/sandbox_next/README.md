@@ -1,6 +1,6 @@
-# @react-awesome-query-builder/sandbox-next
+# react-simple-query-builder/sandbox-next
 
-[![npm](https://img.shields.io/npm/v/@react-awesome-query-builder/sandbox-next.svg)](https://www.npmjs.com/package/@react-awesome-query-builder/sandbox-next)
+[![npm](https://img.shields.io/npm/v/react-simple-query-builder/sandbox-next.svg)](https://www.npmjs.com/package/react-simple-query-builder/sandbox-next)
 
 Demo app built with [Next.js](https://nextjs.org/).  
 Uses MUI widgets by default.  
@@ -20,8 +20,8 @@ npm i
 npm start
 ```
 
-In first case local `@react-awesome-query-builder/*` packages will be used.  
-In second case `@react-awesome-query-builder/*` packages will be downloaded from NPM.  
+In first case local `react-simple-query-builder/*` packages will be used.  
+In second case `react-simple-query-builder/*` packages will be downloaded from NPM.  
 
 Then open `http://localhost:3002` in a browser.  
 Feel free to play with code in `components/demo`, `lib`, `pages`.  
@@ -68,7 +68,7 @@ Response will contain result of converting provided tree into various formats (l
 
 #### zipConfig
 Initial `zipConfig` (if missing in session data) is generated on server-side as follows:
-- based on `CoreConfig` (imported from `@react-awesome-query-builder/core`)
+- based on `CoreConfig` (imported from `react-simple-query-builder/core`)
 - added fields, funcs and some overrides in [`lib/config_base`](lib/config_base.ts)
 - added UI mixins (`asyncFetch`, custom React components, `factory` overrides) in [`lib/config`](lib/config.tsx)
 - compressed with [`Utils.compressConfig()`](/README.md#compressconfigconfig-baseconfig---zipconfig)

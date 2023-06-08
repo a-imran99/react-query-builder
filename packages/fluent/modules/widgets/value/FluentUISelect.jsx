@@ -1,6 +1,6 @@
 import React from "react";
 import { Dropdown } from "@fluentui/react";
-import { Utils } from "@react-awesome-query-builder/ui";
+import { Utils } from "react-simple-query-builder/ui";
 const { mapListValues } = Utils.ListUtils;
 
 export default ({

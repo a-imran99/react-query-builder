@@ -106,12 +106,12 @@ module.exports = {
     resolve: {
         extensions: ['.tsx', '.ts', '.js', '.jsx'],
         alias: {
-            '@react-awesome-query-builder/core': CORE,
-            '@react-awesome-query-builder/ui': UI,
-            '@react-awesome-query-builder/antd': ANTD,
-            '@react-awesome-query-builder/mui': MUI,
-            '@react-awesome-query-builder/material': MATERIAL,
-            '@react-awesome-query-builder/bootstrap': BOOTSTRAP,
+            'react-simple-query-builder/core': CORE,
+            'react-simple-query-builder/ui': UI,
+            'react-simple-query-builder/antd': ANTD,
+            'react-simple-query-builder/mui': MUI,
+            'react-simple-query-builder/material': MATERIAL,
+            'react-simple-query-builder/bootstrap': BOOTSTRAP,
         },
         fallback: {
           fs: false,

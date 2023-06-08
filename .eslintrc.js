@@ -63,13 +63,13 @@ module.exports = {
             "node": true,
         },
         "import/core-modules": [
-            // "@react-awesome-query-builder/ui/css/styles.scss",
+            // "react-simple-query-builder/ui/css/styles.scss",
             "react" // for import `react` in `core/modules/index.d.ts`
         ],
         "import/ignore": [
             /\.(scss|less|css)$/
         ],
-        "import/internal-regex": /^@react-awesome-query-builder/
+        "import/internal-regex": /^react-simple-query-builder/
     },
     "rules": {
         "indent": [
@@ -167,7 +167,7 @@ module.exports = {
         "settings": {
             "import/core-modules": [
                 "react",
-                "@react-awesome-query-builder/ui/css/styles.css"
+                "react-simple-query-builder/ui/css/styles.css"
             ],
         },
       },

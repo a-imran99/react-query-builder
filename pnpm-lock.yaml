@@ -67,7 +67,7 @@ importers:
       '@babel/preset-react': ^7.14.5
       '@babel/preset-typescript': ^7.14.5
       '@babel/runtime': ^7.14.5
-      '@react-awesome-query-builder/ui': workspace:^
+      'react-simple-query-builder/ui': workspace:^
       '@types/react': ^17
       antd: ^5.1.2
       less: ^4.1.1
@@ -78,7 +78,7 @@ importers:
       react-dom: ^17.0.2
       sass: ^1.35.0
     dependencies:
-      '@react-awesome-query-builder/ui': link:../ui
+      'react-simple-query-builder/ui': link:../ui
       lodash: 4.17.21
       prop-types: 15.8.1
       rc-picker: 3.1.4_sfoxds7t5ydpegc3knd667wn6m
@@ -119,7 +119,7 @@ importers:
       '@fortawesome/free-solid-svg-icons': ^6.1.2
       '@fortawesome/react-fontawesome': ^0.2.0
       '@popperjs/core': ^2.11.6
-      '@react-awesome-query-builder/ui': workspace:^
+      'react-simple-query-builder/ui': workspace:^
       '@types/react': ^17
       bootstrap: ^5.1.3
       react: ^17.0.2
@@ -127,7 +127,7 @@ importers:
       reactstrap: ^9.0.0
       sass: ^1.35.0
     dependencies:
-      '@react-awesome-query-builder/ui': link:../ui
+      'react-simple-query-builder/ui': link:../ui
     devDependencies:
       '@babel/cli': 7.20.7_@babel+core@7.20.7
       '@babel/core': 7.20.7
@@ -232,13 +232,13 @@ importers:
       '@mui/x-date-pickers': ^5.0.20
       '@pmmmwh/react-refresh-webpack-plugin': ^0.5.7
       '@popperjs/core': ^2.11.6
-      '@react-awesome-query-builder/antd': workspace:^
-      '@react-awesome-query-builder/bootstrap': workspace:^
-      '@react-awesome-query-builder/core': workspace:^
-      '@react-awesome-query-builder/fluent': workspace:^
-      '@react-awesome-query-builder/material': workspace:^
-      '@react-awesome-query-builder/mui': workspace:^
-      '@react-awesome-query-builder/ui': workspace:^
+      'react-simple-query-builder/antd': workspace:^
+      'react-simple-query-builder/bootstrap': workspace:^
+      'react-simple-query-builder/core': workspace:^
+      'react-simple-query-builder/fluent': workspace:^
+      'react-simple-query-builder/material': workspace:^
+      'react-simple-query-builder/mui': workspace:^
+      'react-simple-query-builder/ui': workspace:^
       '@types/clone': ^2.1.1
       '@types/lodash': ^4.14.170
       '@types/react': ^17
@@ -294,13 +294,13 @@ importers:
       '@mui/system': 5.12.3_nj4y2rcimqny27utrl764tjxdm
       '@mui/x-date-pickers': 5.0.20_beah5mgf3ysydu326nwskecrkq
       '@popperjs/core': 2.11.6
-      '@react-awesome-query-builder/antd': link:../antd
-      '@react-awesome-query-builder/bootstrap': link:../bootstrap
-      '@react-awesome-query-builder/core': link:../core
-      '@react-awesome-query-builder/fluent': link:../fluent
-      '@react-awesome-query-builder/material': link:../material
-      '@react-awesome-query-builder/mui': link:../mui
-      '@react-awesome-query-builder/ui': link:../ui
+      'react-simple-query-builder/antd': link:../antd
+      'react-simple-query-builder/bootstrap': link:../bootstrap
+      'react-simple-query-builder/core': link:../core
+      'react-simple-query-builder/fluent': link:../fluent
+      'react-simple-query-builder/material': link:../material
+      'react-simple-query-builder/mui': link:../mui
+      'react-simple-query-builder/ui': link:../ui
       antd: 5.1.2_tonpzznxmdkdqlpcs7osdmovtq
       bootstrap: 5.2.3_@popperjs+core@2.11.6
       clone: 2.1.2
@@ -367,14 +367,14 @@ importers:
       '@fluentui/font-icons-mdl2': ^8.2.0
       '@fluentui/react': ^8.78.0
       '@fluentui/react-icons': ^2.0.175
-      '@react-awesome-query-builder/ui': workspace:^
+      'react-simple-query-builder/ui': workspace:^
       '@types/react': ^17
       '@types/react-dom': ^17.0.18
       react: ^17.0.2
       react-dom: ^17.0.2
       sass: ^1.35.0
     dependencies:
-      '@react-awesome-query-builder/ui': link:../ui
+      'react-simple-query-builder/ui': link:../ui
     devDependencies:
       '@babel/cli': 7.20.7_@babel+core@7.20.7
       '@babel/core': 7.20.7
@@ -415,7 +415,7 @@ importers:
       '@material-ui/icons': ^4.11.2
       '@material-ui/lab': ^4.0.0-alpha.57
       '@material-ui/pickers': ^3.3.10
-      '@react-awesome-query-builder/ui': workspace:^
+      'react-simple-query-builder/ui': workspace:^
       '@types/react': ^17
       lodash: ^4.17.21
       material-ui-confirm: ^2.1.3
@@ -427,7 +427,7 @@ importers:
     dependencies:
       '@date-io/core': 1.3.13
       '@date-io/moment': 1.3.13_moment@2.29.4
-      '@react-awesome-query-builder/ui': link:../ui
+      'react-simple-query-builder/ui': link:../ui
       lodash: 4.17.21
       material-ui-confirm: 2.1.4_phlbjj2qqbzyjdfzujtmlw3coi
     devDependencies:
@@ -472,7 +472,7 @@ importers:
       '@mui/material': ^5.12.3
       '@mui/system': ^5.12.3
       '@mui/x-date-pickers': ^5.0.20
-      '@react-awesome-query-builder/ui': workspace:^
+      'react-simple-query-builder/ui': workspace:^
       '@types/react': ^17
       lodash: ^4.17.21
       material-ui-confirm: ^3.0.5
@@ -480,7 +480,7 @@ importers:
       react-dom: ^17.0.2
       sass: ^1.35.0
     dependencies:
-      '@react-awesome-query-builder/ui': link:../ui
+      'react-simple-query-builder/ui': link:../ui
       lodash: 4.17.21
       material-ui-confirm: 3.0.7_dbrsiiacey3eqyn76hrozq4tpi
     devDependencies:
@@ -516,8 +516,8 @@ importers:
       '@mui/material': ^5.12.3
       '@mui/system': ^5.12.3
       '@mui/x-date-pickers': ^5.0.20
-      '@react-awesome-query-builder/antd': workspace:^
-      '@react-awesome-query-builder/mui': workspace:^
+      'react-simple-query-builder/antd': workspace:^
+      'react-simple-query-builder/mui': workspace:^
       '@types/lodash': ^4.14.170
       '@types/react': ^17
       '@types/react-dom': ^17.0.18
@@ -537,8 +537,8 @@ importers:
       '@mui/material': 5.12.3_2mete2oe2kozaocyy47tavsz2y
       '@mui/system': 5.12.3_nj4y2rcimqny27utrl764tjxdm
       '@mui/x-date-pickers': 5.0.20_zk5ftfjprpa43vbvg5qbjnto7e
-      '@react-awesome-query-builder/antd': link:../antd
-      '@react-awesome-query-builder/mui': link:../mui
+      'react-simple-query-builder/antd': link:../antd
+      'react-simple-query-builder/mui': link:../mui
       antd: 5.1.2_sfoxds7t5ydpegc3knd667wn6m
       lodash: 4.17.21
       react: 17.0.2
@@ -566,8 +566,8 @@ importers:
       '@mui/system': ^5.12.3
       '@mui/x-date-pickers': ^5.0.20
       '@next/eslint-plugin-next': ^13.1.2
-      '@react-awesome-query-builder/core': workspace:^
-      '@react-awesome-query-builder/mui': workspace:^
+      'react-simple-query-builder/core': workspace:^
+      'react-simple-query-builder/mui': workspace:^
       '@types/jsonfile': ^6.1.1
       '@types/lodash': ^4.14.170
       '@types/react': ^17
@@ -593,8 +593,8 @@ importers:
       '@mui/material': 5.12.3_2mete2oe2kozaocyy47tavsz2y
       '@mui/system': 5.12.3_nj4y2rcimqny27utrl764tjxdm
       '@mui/x-date-pickers': 5.0.20_zk5ftfjprpa43vbvg5qbjnto7e
-      '@react-awesome-query-builder/core': link:../core
-      '@react-awesome-query-builder/mui': link:../mui
+      'react-simple-query-builder/core': link:../core
+      'react-simple-query-builder/mui': link:../mui
       lodash: 4.17.21
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
@@ -622,7 +622,7 @@ importers:
 
   packages/sandbox_simple:
     specifiers:
-      '@react-awesome-query-builder/ui': workspace:^
+      'react-simple-query-builder/ui': workspace:^
       '@vitejs/plugin-react': ^2.0.1
       lodash: ^4.17.21
       react: ^16.14.0
@@ -630,7 +630,7 @@ importers:
       sass: ^1.35.0
       vite: ^3.0.9
     dependencies:
-      '@react-awesome-query-builder/ui': link:../ui
+      'react-simple-query-builder/ui': link:../ui
       lodash: 4.17.21
       react: 16.14.0
       react-dom: 16.14.0_react@16.14.0
@@ -662,13 +662,13 @@ importers:
       '@mui/system': ^5.12.3
       '@mui/x-date-pickers': ^5.0.20
       '@popperjs/core': ^2.11.6
-      '@react-awesome-query-builder/antd': workspace:^
-      '@react-awesome-query-builder/bootstrap': workspace:^
-      '@react-awesome-query-builder/core': workspace:^
-      '@react-awesome-query-builder/fluent': workspace:^
-      '@react-awesome-query-builder/material': workspace:^
-      '@react-awesome-query-builder/mui': workspace:^
-      '@react-awesome-query-builder/ui': workspace:^
+      'react-simple-query-builder/antd': workspace:^
+      'react-simple-query-builder/bootstrap': workspace:^
+      'react-simple-query-builder/core': workspace:^
+      'react-simple-query-builder/fluent': workspace:^
+      'react-simple-query-builder/material': workspace:^
+      'react-simple-query-builder/mui': workspace:^
+      'react-simple-query-builder/ui': workspace:^
       '@types/chai': ^4.2.18
       '@types/deep-equal-in-any-order': ^1.0.1
       '@types/enzyme': ^3.10.8
@@ -734,13 +734,13 @@ importers:
       '@mui/system': 5.12.3_nj4y2rcimqny27utrl764tjxdm
       '@mui/x-date-pickers': 5.0.20_beah5mgf3ysydu326nwskecrkq
       '@popperjs/core': 2.11.6
-      '@react-awesome-query-builder/antd': link:../antd
-      '@react-awesome-query-builder/bootstrap': link:../bootstrap
-      '@react-awesome-query-builder/core': link:../core
-      '@react-awesome-query-builder/fluent': link:../fluent
-      '@react-awesome-query-builder/material': link:../material
-      '@react-awesome-query-builder/mui': link:../mui
-      '@react-awesome-query-builder/ui': link:../ui
+      'react-simple-query-builder/antd': link:../antd
+      'react-simple-query-builder/bootstrap': link:../bootstrap
+      'react-simple-query-builder/core': link:../core
+      'react-simple-query-builder/fluent': link:../fluent
+      'react-simple-query-builder/material': link:../material
+      'react-simple-query-builder/mui': link:../mui
+      'react-simple-query-builder/ui': link:../ui
       antd: 5.1.2_tonpzznxmdkdqlpcs7osdmovtq
       bootstrap: 5.2.3_@popperjs+core@2.11.6
       lodash: 4.17.21
@@ -805,7 +805,7 @@ importers:
       '@babel/preset-react': ^7.14.5
       '@babel/preset-typescript': ^7.14.5
       '@babel/runtime': ^7.14.5
-      '@react-awesome-query-builder/core': workspace:^
+      'react-simple-query-builder/core': workspace:^
       '@types/prop-types': ^15.7.3
       '@types/react': ^17
       '@types/react-dom': ^17.0.18
@@ -818,7 +818,7 @@ importers:
       redux: ^4.2.0
       sass: ^1.35.0
     dependencies:
-      '@react-awesome-query-builder/core': link:../core
+      'react-simple-query-builder/core': link:../core
       classnames: 2.3.2
       lodash: 4.17.21
       prop-types: 15.8.1

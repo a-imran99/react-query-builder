@@ -1,6 +1,6 @@
-# @react-awesome-query-builder/sandbox-simple
+# react-simple-query-builder/sandbox-simple
 
-[![npm](https://img.shields.io/npm/v/@react-awesome-query-builder/sandbox-simple.svg)](https://www.npmjs.com/package/@react-awesome-query-builder/sandbox-simple)
+[![npm](https://img.shields.io/npm/v/react-simple-query-builder/sandbox-simple.svg)](https://www.npmjs.com/package/react-simple-query-builder/sandbox-simple)
 
 Demo app built with `vite`.  
 Uses vanilla widgets.  
@@ -22,8 +22,8 @@ npm i
 npm start
 ```
 
-In first case local `@react-awesome-query-builder/*` packages will be used.  
-In second case `@react-awesome-query-builder/*` packages will be downloaded from NPM.  
+In first case local `react-simple-query-builder/*` packages will be used.  
+In second case `react-simple-query-builder/*` packages will be downloaded from NPM.  
 
 Then open `http://localhost:5174` in a browser.  
 Feel free to play with code in `src/demo` dir.  

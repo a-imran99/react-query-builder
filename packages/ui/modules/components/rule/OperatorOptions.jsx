@@ -1,5 +1,5 @@
 import React, { PureComponent } from "react";
-import { Utils } from "@react-awesome-query-builder/core";
+import { Utils } from "react-simple-query-builder/core";
 import PropTypes from "prop-types";
 const {getOperatorConfig} = Utils.ConfigUtils;
 

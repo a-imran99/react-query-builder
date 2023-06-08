@@ -21,8 +21,8 @@
     "skipLibCheck": true,
     
     "paths": {
-      "@react-awesome-query-builder/core": ["../core/modules"],
-      "@react-awesome-query-builder/ui": ["../ui/modules"]
+      "react-simple-query-builder/core": ["../core/modules"],
+      "react-simple-query-builder/ui": ["../ui/modules"]
     }
   },
   "include": [

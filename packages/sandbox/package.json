@@ -1,7 +1,7 @@
 {
-  "name": "@react-awesome-query-builder/sandbox",
+  "name": "react-simple-query-builder/sandbox",
   "version": "6.2.0",
-  "description": "Demo for @react-awesome-query-builder",
+  "description": "Demo for react-simple-query-builder",
   "repository": {
     "type": "git",
     "url": "https://github.com/ukrbublik/react-awesome-query-builder.git",
@@ -40,8 +40,8 @@
     "@mui/material": "^5.12.3",
     "@mui/system": "^5.12.3",
     "@mui/x-date-pickers": "^5.0.20",
-    "@react-awesome-query-builder/antd": "workspace:^",
-    "@react-awesome-query-builder/mui": "workspace:^",
+    "react-simple-query-builder/antd": "workspace:^",
+    "react-simple-query-builder/mui": "workspace:^",
     "antd": "^5.1.2",
     "lodash": "^4.17.21",
     "react": "^17.0.2",

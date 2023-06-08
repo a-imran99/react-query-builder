@@ -1,7 +1,7 @@
 import React from "react";
 import {
   MuiConfig, MuiWidgets, AsyncFetchListValuesResult, ConfigContext, FieldProps
-} from "@react-awesome-query-builder/mui";
+} from "react-simple-query-builder/mui";
 import merge from "lodash/merge";
 import { ukUA } from "@mui/material/locale";
 //import { ukUA } from "@mui/x-date-pickers/locales"; // todo: throws "TypeError: date.clone is not a function"

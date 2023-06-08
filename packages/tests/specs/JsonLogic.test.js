@@ -1,4 +1,4 @@
-import { Utils } from "@react-awesome-query-builder/core";
+import { Utils } from "react-simple-query-builder/core";
 const { applyJsonLogic } = Utils.ConfigUtils;
 
 describe("JsonLogic", () => {

@@ -3,7 +3,7 @@ import {
   Config, Fields, Funcs, BasicFuncs, Func, Types, Type, Operator, Operators, Settings,
   SelectField, AsyncFetchListValuesFn, SelectFieldSettings, NumberFieldSettings,
   FieldProps, ConfigContext, VanillaWidgets,
-} from "@react-awesome-query-builder/ui";
+} from "react-simple-query-builder/ui";
 import sinon from "sinon";
 import omit from "lodash/omit";
 import merge from "lodash/merge";

@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { LazyStyleModule } from "../utils";
 // @ts-ignore
-import styles from "@react-awesome-query-builder/fluent/css/styles.scss";
+import styles from "react-simple-query-builder/fluent/css/styles.scss";
 
 const ImportFluent: React.FC = () => {
   useEffect(() => {

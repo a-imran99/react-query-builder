@@ -56,12 +56,12 @@ TIP: Example 2: {config2}[`config for sandbox`]
 - Use `FluentUIConfig` for https://developer.microsoft.com/en-us/fluentui[Fluent UI] widgets
 [source,javascript]
 ----
-import {BasicConfig} from '@react-awesome-query-builder/ui';
-import {AntdConfig} from '@react-awesome-query-builder/antd';
-import {MuiConfig} from '@react-awesome-query-builder/mui';
-import {MaterialConfig} from '@react-awesome-query-builder/material';
-import {BootstrapConfig} from "@react-awesome-query-builder/bootstrap";
-import {FluentUIConfig} from "@react-awesome-query-builder/fluent";
+import {BasicConfig} from 'react-simple-query-builder/ui';
+import {AntdConfig} from 'react-simple-query-builder/antd';
+import {MuiConfig} from 'react-simple-query-builder/mui';
+import {MaterialConfig} from 'react-simple-query-builder/material';
+import {BootstrapConfig} from "react-simple-query-builder/bootstrap";
+import {FluentUIConfig} from "react-simple-query-builder/fluent";
 const InitialConfig = BasicConfig; // or AntdConfig or MuiConfig or BootstrapConfig or FluentUIConfig
 
 const myConfig = {
@@ -254,7 +254,7 @@ Example:
 import ru_RU from 'antd/es/locale/ru_RU';
 import { ruRU } from '@material-ui/core/locale'; //v4
 import { ruRU as muiRuRU } from '@mui/material/locale';
-import { AntdWidgets } from '@react-awesome-query-builder/antd';
+import { AntdWidgets } from 'react-simple-query-builder/antd';
 const { FieldCascader, FieldDropdown, FieldTreeSelect } = AntdWidgets;
 ----
 
@@ -544,7 +544,7 @@ There is also special `proximity` operator, its options are rendered with `<Prox
 
 [source,javascript]
 ----
-import {CustomOperators: {ProximityOperator}} from '@react-awesome-query-builder/ui';
+import {CustomOperators: {ProximityOperator}} from 'react-simple-query-builder/ui';
 ----
 
 See {config3}[`examples/demo`]
@@ -559,12 +559,12 @@ See {config3}[`examples/demo`]
 
 [source,javascript]
 ----
-import {VanillaWidgets} from '@react-awesome-query-builder/ui';
-import {AntdWidgets} from '@react-awesome-query-builder/antd';
-import {MuiWidgets} from '@react-awesome-query-builder/mui';
-import {MaterialWidgets} from '@react-awesome-query-builder/material'; // MUI v4
-import {BootstrapWidgets} from '@react-awesome-query-builder/bootstrap';
-import {FluentUIWidgets} from "@react-awesome-query-builder/fluent";
+import {VanillaWidgets} from 'react-simple-query-builder/ui';
+import {AntdWidgets} from 'react-simple-query-builder/antd';
+import {MuiWidgets} from 'react-simple-query-builder/mui';
+import {MaterialWidgets} from 'react-simple-query-builder/material'; // MUI v4
+import {BootstrapWidgets} from 'react-simple-query-builder/bootstrap';
+import {FluentUIWidgets} from "react-simple-query-builder/fluent";
 const {
     VanillaTextWidget,
     VanillaNumberWidget,
@@ -767,7 +767,7 @@ See the collection of {funcs}[basic funcstions].
 You can copy them to `config.funcs`:
 [source,javascript]
 ----
-import { BasicFuncs } from '@react-awesome-query-builder/ui';
+import { BasicFuncs } from 'react-simple-query-builder/ui';
 const config = {
   //...
   funcs: {
@@ -795,7 +795,7 @@ But if you use advanced server-side config, you may need to add your custom func
 
 [source,javascript]
 ----
-import {BasicConfig} from '@react-awesome-query-builder/ui';
+import {BasicConfig} from 'react-simple-query-builder/ui';
 
 const fields = {
   firstName: {
@@ -943,7 +943,7 @@ CAUTION: Using `eval()` is not secure
 To achieve this ability, JS functions in config (like `factory`, `formatValue`, `validateValue` etc.) should be pure functions, they should not use imported modules like this:
 [source,javascript]
 ----
-import { VanillaWidgets } from '@react-awesome-query-builder/ui';
+import { VanillaWidgets } from 'react-simple-query-builder/ui';
 const { VanillaButton } = VanillaWidgets;
 import moment from "moment";
 

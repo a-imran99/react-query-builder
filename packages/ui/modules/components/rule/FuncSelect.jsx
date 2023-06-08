@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Utils } from "@react-awesome-query-builder/core";
+import { Utils } from "react-simple-query-builder/core";
 import PropTypes from "prop-types";
 import {truncateString} from "../../utils/stuff";
 import {useOnPropsChanged} from "../../utils/reactUtils";

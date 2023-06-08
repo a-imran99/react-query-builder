@@ -1,7 +1,7 @@
 {
-  "name": "@react-awesome-query-builder/sandbox-simple",
+  "name": "react-simple-query-builder/sandbox-simple",
   "version": "6.2.0",
-  "description": "Simple demo for @react-awesome-query-builder",
+  "description": "Simple demo for react-simple-query-builder",
   "repository": {
     "type": "git",
     "url": "https://github.com/ukrbublik/react-awesome-query-builder.git",
@@ -32,7 +32,7 @@
     ]
   },
   "dependencies": {
-    "@react-awesome-query-builder/ui": "workspace:^",
+    "react-simple-query-builder/ui": "workspace:^",
     "lodash": "^4.17.21",
     "react": "^16.14.0",
     "react-dom": "^16.14.0"

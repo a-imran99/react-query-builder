@@ -58,10 +58,10 @@ import {
   CoreOperators as _CoreOperators,
   CoreWidgets as _CoreWidgets,
   ConfigMixin as _ConfigMixin,
-} from "@react-awesome-query-builder/core";
+} from "react-simple-query-builder/core";
 
 // re-export
-export * from "@react-awesome-query-builder/core";
+export * from "react-simple-query-builder/core";
 
 /////////////////
 // override <C> in types

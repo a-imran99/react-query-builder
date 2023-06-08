@@ -1,5 +1,5 @@
 
-import { Utils } from "@react-awesome-query-builder/core";
+import { Utils } from "react-simple-query-builder/core";
 const { simulateAsyncFetch } = Utils.Autocomplete;
 
 const demoListValues = [
